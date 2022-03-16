@@ -1,6 +1,6 @@
 @echo off
 
-set version=1.0
+set version=1.0.1
 
 title NetKill v.%version%
 
@@ -14,6 +14,8 @@ if %errorlevel% == 0 (echo Killed client32.exe.) else (echo Can't kill client32.
 taskkill /f /im runplugin.exe >nul 2>&1
 if %errorlevel% == 0 (echo Killed runplugin.exe.) else (echo Can't kill runplugin.exe!)
 echo.
-echo All done! After closing this window, NetSupport School should be terminated.
+echo All done! After the program terminates, NetSupport School should be terminated
+echo if no error occurs.
 echo Press any key to exit.
 pause >nul
+cls
