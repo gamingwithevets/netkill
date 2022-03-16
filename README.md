@@ -1,4 +1,4 @@
-**Netkill** is a NetSupport School killer - basically a program to stop NetSupport School on any computer connected to a NetSupport School host computer.  
+**NetKill** is a NetSupport School killer - basically a program to stop NetSupport School on any computer connected to a NetSupport School host computer.  
 Compatible with Windows XP and above.
 
 # A little backstory...
@@ -15,11 +15,11 @@ And I decided to write an automated script that does it for you.
 
 # Killing Time
 ## One-Line Command
-### Command Prompt
+### Command Prompt (Windows 10 1803+)
 ```batchfile
 curl https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat > netkill.bat&netkill.bat&del netkill.bat&cls
 ```
-### Windows PowerShell
+### Windows PowerShell (3.0+)
 ```powershell
 Invoke-WebRequest https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1 | Select-Object -Expand Content > netkill.ps1; Get-Content .\netkill.ps1 | PowerShell.exe -noprofile -; del netkill.ps1; Clear-Host
 ```
