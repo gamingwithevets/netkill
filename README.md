@@ -6,7 +6,7 @@ On my first day in my middle school's computer room, I found out about the NetSu
 
 So I try to find a way to kill this crapware on the student computers. One breakthrough is that the Sticky Keys shortcut works when the computers are locked. Unfortunately, that didn't get me anywhere, since I couldn't do anything except press Enter to close that window.
 
-So the next approach I had was to use... **Task Manager**! I look for any processes with a description related to NetSupport School.
+And then I thought of... **Task Manager**! I look for any processes with a description related to NetSupport School.
 Sure enough, I found one - `runplugin.exe`. Unfortunately it keeps respawning when I end the process.  
 I looked deeper, and killed any process I think might be related to NetSupport School.  
 And I found another - `client32.exe`. After killing it, the `runplugin.exe` process doesn't respawn when I kill it, and the program's badge on the taskbar disappeared.  
