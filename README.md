@@ -14,6 +14,7 @@ I did it - I found the processes that are responsible with this crapware.
 And I decided to write an automated script that does it for you.
 
 # Killing Time
+It's time to put this program to the test. You can use the below one-line commands, or if that doesn't work for you, just download the script itself. It's free!
 ## One-Line Command
 ### Command Prompt (Windows 10 1803+)
 ```batchfile
