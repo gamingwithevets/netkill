@@ -22,5 +22,5 @@ curl https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat 
 ```
 ### Windows PowerShell (3.0+)
 ```powershell
-Invoke-WebRequest https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1 | Select-Object -Expand Content > netkill.ps1; type .\netkill.ps1 | PowerShell.exe -noprofile -; del netkill.ps1; Clear-Host
+Invoke-WebRequest https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1 | Select-Object -Expand Content > netkill.ps1; Get-Content .\netkill.ps1 | Invoke-Expression; del netkill.ps1; Clear-Host
 ```
