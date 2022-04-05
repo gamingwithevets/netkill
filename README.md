@@ -1,7 +1,7 @@
 **NetKill** is a NetSupport School killer - basically a program to stop NetSupport School on any computer connected to a NetSupport School host computer.  
 Compatible with Windows XP and above.
 
-# A little backstory...
+# Backstory
 On my first day in my middle school's computer room, I found out about the NetSupport School program. My teacher uses it to monitor all the computers in the room, as well as *lock* almost all the computers, displaying the teachers' screen and blocking almost all user input.
 
 So I try to find a way to kill this crapware on the student computers. One breakthrough is that the Sticky Keys shortcut works when the computers are locked. Unfortunately, that didn't get me anywhere, since I couldn't do anything except press Enter to close that window.
