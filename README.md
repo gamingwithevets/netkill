@@ -1,5 +1,5 @@
 **NetKill** is a NetSupport School killer - basically a program to stop NetSupport School on any computer connected to a NetSupport School host computer.  
-Compatible with Windows XP and above.
+Compatible with Windows XP and above. Tested with Windows 7 and 10.
 
 Downloads:&nbsp; **[Batchfile](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat)&nbsp; [PowerShell](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1)**&nbsp; (any one will do)
 
