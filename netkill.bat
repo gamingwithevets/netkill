@@ -16,7 +16,7 @@ echo NETSUPPORT SCHOOL CLIENT KILLER - v.%version%
 echo Project on GitHub: https://github.com/gamingwithevets/netkill
 echo.
 echo NOTES:
-echo This program only kills the CLIENT and does not uninstall the program
+echo This program only KILLS the client and does not uninstall the program
 echo from this computer.
 echo This also means the client can be restarted.
 echo.
