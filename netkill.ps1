@@ -1,11 +1,11 @@
-$version = "1.1.0"
+$version = "1.1.1"
 $host.ui.RawUI.WindowTitle = "NetKill v.$version"
 
 Clear-Host
 Write-Host " _____ ______ _______ _  ___ _      _"
 Write-Host "`| ._. `|  ____`|__   __`|K`|/K`|I`|L`|    `|L`|"
 Write-Host "`| `| `| `| `|__     `| `|  `|K'K/`|I`|L`|    `|L`|"
-Write-Host "`| `| `| `|  __`|    `| `|  `|K < `|I`|L`|    `|L`|"
+Write-Host "`| `| `| `|  __`|    `| `|  `|KK< `|I`|L`|    `|L`|"
 Write-Host "`| `| `| `| `|____   `| `|  `|K.K\`|I`|L`|____`|L`|____"
 Write-Host "`|_`| `|_`|______`|  `|_`|  `|K`|\K\I`|LLLLLL`|LLLLLL`|"
 Write-Host "NETSUPPORT SCHOOL CLIENT KILLER - v.$version"
