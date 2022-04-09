@@ -1,6 +1,6 @@
 @echo off
 
-set version=1.1.1
+set version=1.1.2
 
 title NetKill v.%version%
 
@@ -9,7 +9,7 @@ cls
 echo  _____ ______ _______ _  ___ _      _
 echo ^| ._. ^|  ____^|__   __^|K^|/K^|I^|L^|    ^|L^|
 echo ^| ^| ^| ^| ^|__     ^| ^|  ^|K'K/^|I^|L^|    ^|L^|
-echo ^| ^| ^| ^|  __^|    ^| ^|  ^|KK< ^|I^|L^|    ^|L^|
+echo ^| ^| ^| ^|  __^|    ^| ^|  ^|KK^< ^|I^|L^|    ^|L^|
 echo ^| ^| ^| ^| ^|____   ^| ^|  ^|K.K\^|I^|L^|____^|L^|____
 echo ^|_^| ^|_^|______^|  ^|_^|  ^|K^|\K\I^|LLLLLL^|LLLLLL^|
 echo NETSUPPORT SCHOOL CLIENT KILLER - v.%version%
