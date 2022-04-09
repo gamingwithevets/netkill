@@ -3,6 +3,8 @@ Compatible with Windows XP and above. Tested with Windows 7 and 10.
 
 Downloads:&nbsp; **[Batchfile](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat)&nbsp; [PowerShell](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1)**&nbsp; (any one will do)
 
+If you're downloading the PowerShell script, keep in mind that you *do* have to set the execution policy to something other than `Restricted` for NetKill to work!
+
 # Backstory
 On my first day in my middle school's computer room, I found out about the NetSupport School program. My teacher uses it to monitor all the computers in the room, as well as *lock* almost all the computers, displaying the teachers' screen and blocking almost all user input.
 
