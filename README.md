@@ -1,7 +1,7 @@
 **NetKill** is a NetSupport School Client killer - basically a program to stop the NetSupport School Client on any computer connected to a NetSupport School host computer.  
-Compatible with Windows XP and above. Tested with Windows 7 and 10.
+Compatible with Windows XP and above. Tested with Windows 7, 10 and 11.
 
-Downloads:&nbsp; **[Batchfile](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat)&nbsp; [PowerShell](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1)**&nbsp; (any one will do)
+Downloads:&nbsp; [**Batchfile** (RECOMMENDED)](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat)&nbsp; [**PowerShell**](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1)&nbsp; (make sure to **right-click/hold the download link and click/tap "Save link as..."**)
 
 If you're downloading the PowerShell script, keep in mind that you *do* have to set the execution policy to something other than `Restricted` for NetKill to work!
 
