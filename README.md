@@ -1,9 +1,10 @@
 **NetKill** is a NetSupport School Client killer - basically a program to stop the NetSupport School Client on any computer connected to a NetSupport School host computer.  
 Compatible with Windows XP and above. Tested with Windows 7, 10 and 11.
 
-Downloads:&nbsp; [**Batchfile** (RECOMMENDED)](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.bat)&nbsp; [**PowerShell**](https://raw.githubusercontent.com/gamingwithevets/netkill/main/netkill.ps1)&nbsp; (make sure to **right-click/hold the download link and click/tap "Save link as..."**)
+[**Download Latest Binary**](../../releases/download/latest/netkill.exe)
 
-If you're downloading the PowerShell script, keep in mind that you *do* have to set the execution policy to something other than `Restricted` for NetKill to work!
+Raw downloads:&nbsp; [Batchfile](/../../raw/main/netkill.bat)&nbsp; [PowerShell](/../../raw/main/netkill.ps1)&nbsp; (make sure to right-click/hold the download link and click/tap "Save link as...")  
+NOTE: If you're downloading the PowerShell script, keep in mind that you *do* have to set the execution policy to something other than `Restricted` for NetKill to work!
 
 # Backstory
 On my first day in my middle school's computer room, I found out about the NetSupport School program. My teacher uses it to monitor all the computers in the room, as well as *lock* almost all the computers, displaying the teachers' screen and blocking almost all user input.
@@ -18,7 +19,7 @@ I did it - I found the processes that correspond to this crapware which is just 
 And I decided to write an automated script that does it for you.
 
 # Killing Time
-It's time to put this program to the test. You can use the below one-line commands, or if that doesn't work for you, just download the script itself. It's free!
+It's time to put this program to the test. You can use the below one-line commands, or if that doesn't work for you, just download the script or the binary (links above). It's free!
 ## One-Line Command
 ### Command Prompt (Windows 10 1803+)
 ```batchfile
