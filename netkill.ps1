@@ -1,4 +1,4 @@
-﻿$version = "1.1.3"
+﻿$version = "1.1.4"
 $host.ui.RawUI.WindowTitle = "NetKill v$version - PowerShell Version"
 
 Clear-Host
@@ -18,17 +18,21 @@ Write-Host "`nPress any key to start the process."
 [Console]::ReadKey() >$null
 
 function Fail_Msg {
-Write-Host "Oops, looks like NetKill was unable to kill the NetSupport School`nClient. No worries, maybe try running the script again as admin?"
+Write-Host "`nOops, looks like NetKill was unable to kill the NetSupport School`nClient. No worries, maybe try running the script again as admin?"
+Exit_Prompt
+}
+
+function Success_Msg {
+Write-Host "`nAll done! The NetSupport School Client should be terminated now.`nAlso, thanks for using NetKill! You can contribute to the project`nvia the link above."
 Exit_Prompt
 }
 
 function Exit_Prompt {
 Write-Host "`nPress any key to exit."
 [Console]::ReadKey() >$null
-Exit-PSSession
 }
 
-Write-Host Killing NetSupport School Client processes...
+Write-Host "`nKilling NetSupport School Client processes..."
 taskkill /f /im client32.exe >$null 2>&1
 if ($lastexitcode -eq 0) {Write-Host "Killed client32.exe."} else {Write-Host "Can't kill client32.exe!"}
 taskkill /f /im runplugin.exe >$null 2>&1
@@ -40,10 +44,7 @@ if ($errlvclient -eq 0) {Write-Host "client32.exe found!"} else {Write-Host "cli
 tasklist /fi "ImageName eq runplugin.exe" /fo csv 2>$null | find /I """runplugin.exe""" >$null
 $errlvplugin = $lastexitcode
 if ($errlvplugin -eq 0) {Write-Host "runplugin.exe found!"} else {Write-Host "runplugin.exe not found!"}
-if ($errlvclient -eq 0) {Fail_Msg}
-if ($errlvplugin -eq 0) {Fail_Msg}
+if ($errlvclient -eq 0 -or $errlvplugin -eq 0) {Fail_Msg} else {Success_Msg}
 
-Write-Host "`nAll done! The NetSupport School Client should be terminated now.`nAlso, thanks for using NetKill! You can contribute to the project`nvia the link above."
-Exit_Prompt
 
 

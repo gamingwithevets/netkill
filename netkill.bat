@@ -1,6 +1,6 @@
 @echo off
 
-set version=1.1.3
+set version=1.1.4
 
 title NetKill v%version%
 
@@ -8,6 +8,8 @@ chcp 65001
 color
 cls
 
+echo Note: The logo may not be displayed correctly, please
+echo don't mind about it :)
 echo  _   _ ______ _______
 echo ^| \ ^| ^|  ____^|__   __^|██   ██ ██ ██      ██
 echo ^|  \^| ^| ^|__     ^| ^|   ██  ██  ██ ██      ██
@@ -25,6 +27,7 @@ echo:
 echo Press any key to start the process.
 pause >nul
 
+echo.
 echo Killing NetSupport School Client processes...
 taskkill /f /im client32.exe >nul 2>&1
 if %errorlevel% == 0 (echo Killed client32.exe.) else (echo Can't kill client32.exe!)
