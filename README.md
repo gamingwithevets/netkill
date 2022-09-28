@@ -1,3 +1,5 @@
+NOTE: Project archived because I got caught by my school teacher :(
+
 **NetKill** is a NetSupport School Client killer - basically a program to stop the NetSupport School Client on any computer connected to a NetSupport School host computer.  
 Compatible with Windows XP and above. Tested with Windows 7, 10 and 11.
 
